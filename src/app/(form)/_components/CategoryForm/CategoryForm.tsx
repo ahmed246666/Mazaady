@@ -51,6 +51,7 @@ const CategoryForm: React.FC = () => {
         const categories = await fetchMainCategories();
         setMainCategories(categories || []);
       } catch (err) {
+        console.log(err)
         setError("Failed to load main categories.");
       } finally {
         setLoading((prev) => ({ ...prev, main: false }));
@@ -70,6 +71,7 @@ const CategoryForm: React.FC = () => {
         const subCategories = await fetchSubCategories(selectedMainCategory);
         setSubCategories(subCategories || []);
       } catch (err) {
+        console.log(err)
         setError("Failed to load subcategories.");
       } finally {
         setLoading((prev) => ({ ...prev, sub: false }));
@@ -89,6 +91,7 @@ const CategoryForm: React.FC = () => {
         const properties = await fetchProperties(selectedSubCategory);
         setProperties(properties || []);
       } catch (err) {
+        console.log(err)
         setError("Failed to load properties.");
       } finally {
         setLoading((prev) => ({ ...prev, properties: false }));
