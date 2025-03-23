@@ -1,4 +1,4 @@
-# Task Report: Frontend Developer Task Assignment (React)
+# Task Report: Frontend Developer Task Assignment (Next.js)
 
 ## Overview
 This project implements a form with searchable dropdown menus, replicates a static page design, and ensures clean, efficient code using **Next.js**, **TypeScript**, and **TailwindCSS**. It includes reusable components, accessibility improvements, and unit tests.
