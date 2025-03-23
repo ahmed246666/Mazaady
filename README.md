@@ -1,9 +1,13 @@
 # Task Report: Frontend Developer Task Assignment (Next.js)
 
 ## Overview
-This project implements a form with searchable dropdown menus, replicates a static page design, and ensures clean, efficient code using **Next.js**, **TypeScript**, and **TailwindCSS**. It includes reusable components, accessibility improvements, and unit tests.
+This project implements a form with searchable dropdown menus, replicates a static page design, and ensures clean, efficient code using **Next.js**, **TypeScript**, **Shadcn** , **Axios** and **TailwindCSS**. It includes reusable components, accessibility improvements, and unit tests.
 
 ---
+
+## Demo Ui Link : https://mazaady-nextjs.vercel.app/ 
+
+## Demo Form Link : https://mazaady-nextjs.vercel.app/form 
 
 ## Key Features
 1. **Navbar**:
@@ -33,6 +37,8 @@ This project implements a form with searchable dropdown menus, replicates a stat
 7. **Testing**:
    - Unit tests for `Navbar`, `Collapsable`, `ProfileCard`, `QRCodeSection`.
    - Hook test for `useCountdown`.
+    
+8. **Fully Responsive And Pixelperfect Ui Implementation**
 
 ---
 
