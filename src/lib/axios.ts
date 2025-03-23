@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const API_BASE_URL = "https://stagingapi.mazaady.com/api/v1";
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
