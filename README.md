@@ -8,6 +8,7 @@ This project implements a form with searchable dropdown menus, replicates a stat
 ## Demo Ui Link : https://mazaady-nextjs.vercel.app/ 
 
 ## Demo Form Link : https://mazaady-nextjs.vercel.app/form 
+### Note : (main category : cars , sub category :text input ) are good data to test the form as they aren't empty 
 
 ## Key Features
 1. **Navbar**:
