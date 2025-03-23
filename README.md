@@ -39,7 +39,7 @@ This project implements a form with searchable dropdown menus, replicates a stat
    - Unit tests for `Navbar`, `Collapsable`, `ProfileCard`, `QRCodeSection`.
    - Hook test for `useCountdown`.
     
-8. **Fully Responsive And Pixelperfect Ui Implementation**
+8. **Fully Responsive And Pixel-perfect Ui Implementation**
 
 ---
 
